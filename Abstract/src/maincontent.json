@@ -15,30 +15,30 @@
     },
     {
         "id": 3,
-        "image":"./branch.png",
-        "title": "Using Abstract",
-        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "image":"./puzzle.png",
+        "title": "Manage organizations, teams, and projects",
+        "content":"Use Abstract organizations, teams, and projects to organize your people and <br> your work.",
         "link": "https://www.google.com/"
     },
     {
         "id": 4,
-        "image":"./branch.png",
-        "title": "Using Abstract",
-        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "image":"./billing.png",
+        "title": "Manage billing",
+        "content":"Change subscriptions and payment details.",
         "link": "https://www.google.com/"
     },
     {
         "id": 5,
-        "image":"./branch.png",
-        "title": "Using Abstract",
-        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "image":"./authenticate.png",
+        "title": "Authenticate to Abstract",
+        "content":"Set up and configure SSO, SCIM, and Just-in-Time provisioning.",
         "link": "https://www.google.com/"
     },
     {
         "id": 6,
-        "image":"./branch.png",
-        "title": "Using Abstract",
-        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "image":"./support.png",
+        "title": "Abstract support",
+        "content":"Get in touch with a human.",
         "link": "https://www.google.com/"
     }
 ]
