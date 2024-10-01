@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image":"./branch.png",
+        "title": "Using Abstract",
+        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "link": "https://www.google.com/"
+    },
+    {
+        "id": 2,
+        "image":"./manage.png",
+        "title": "Manage your account",
+        "content":"Configure your account settings, such as your email, profile details, and password.",
+        "link": "https://www.google.com/"
+    },
+    {
+        "id": 3,
+        "image":"./branch.png",
+        "title": "Using Abstract",
+        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "link": "https://www.google.com/"
+    },
+    {
+        "id": 4,
+        "image":"./branch.png",
+        "title": "Using Abstract",
+        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "link": "https://www.google.com/"
+    },
+    {
+        "id": 5,
+        "image":"./branch.png",
+        "title": "Using Abstract",
+        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "link": "https://www.google.com/"
+    },
+    {
+        "id": 6,
+        "image":"./branch.png",
+        "title": "Using Abstract",
+        "content":"Abstract lets you manage, version, and document your designs in one place.",
+        "link": "https://www.google.com/"
+    }
+]
