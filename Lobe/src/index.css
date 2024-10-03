@@ -5,17 +5,22 @@
   font-family: "Work Sans", sans-serif;
 }
 
+::selection {
+  background-color: rgba(0, 230, 184, 0.2);
+}
 /* Header Section */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 20px auto;
+  transition: all 0.3s ease-in-out;
 }
 .mainlogo {
   width: 100px;
+  cursor: pointer;
 }
 .nav-ul {
   display: flex;
@@ -23,11 +28,11 @@
   list-style: none;
   font-size: 1.2rem;
   color: #767676;
+  transition: all 0.3s ease-in-out;
 }
 .nav-ul li:hover {
   color: #333;
   cursor: pointer;
-  transition: color 0.1s ease-in;
   transform: scale(1.1);
 }
 .nav-btn {
@@ -37,13 +42,12 @@
   color: white;
   border: none;
   font-size: 1.2rem;
-  transform: scale(1);
+
   transition: all 0.3s ease-in;
 }
 .nav-btn:hover {
   cursor: pointer;
-  transform: scale(1.2);
-  transition: all 0.3s ease-in;
+  transform: scale(1.1);
 }
 
 /* HERO section */
@@ -81,15 +85,13 @@
 .video-img {
   max-width: 900px;
   border-radius: 19px;
-  transform: scale(0.5) rotate(0.1);
-  transition: transform 0.3s linear;
+  transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
 .video-img:hover {
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  transform: scale(1.1);
-  transition: transform 0.3s linear;
+  transform: scale(1.01);
 }
 .secondary {
   text-align: center;
