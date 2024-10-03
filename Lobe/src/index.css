@@ -100,3 +100,54 @@
 .secondary-btn {
   margin-bottom: 3rem;
 }
+
+/* Footer section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #767676;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #767676;
+  max-width: 1072px;
+  margin: auto;
+}
+.footer-ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #767676;
+}
+.footer-ul li:hover {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s ease-in;
+  transform: scale(1.1);
+}
+.copyright-links {
+  pointer-events: none;
+}
+.footer-logo {
+  margin-bottom: 1.2rem;
+}
+.footer-social {
+  display: flex;
+  gap: 10px;
+}
+.footer-heading {
+  margin-bottom: 1.6rem;
+  color: #333;
+}
+.footer-sociallogo {
+  width: 30px;
+  height: 30px;
+  color: #04ddb2;
+
+  transition: all 0.3s ease-in;
+}
+.footer-sociallogo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in;
+}
