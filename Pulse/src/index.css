@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .signupbtn {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .signupbtn:hover {
+    box-shadow: -5px 5px #00ad6a;
+    transform: translate3d(5px, -5px, 0);
+  }
+}
