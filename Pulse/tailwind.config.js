@@ -8,6 +8,7 @@ export default {
       },
       fontFamily: {
         worksans: ["Work Sans", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
       },
     },
   },
