@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonials() {
   return (
     <>
-      <div className="testimonials flex flex-col items-center mt-20 gap-5 mb-44">
+      <div className="testimonials flex flex-col items-center mt-20 gap-5 mb-44 max-w-[1150px] mx-auto">
         <div className="">
           <img src="/subvert-avatar.png" alt="" />
         </div>

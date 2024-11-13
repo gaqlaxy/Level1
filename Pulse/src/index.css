@@ -14,4 +14,11 @@
     box-shadow: -5px 5px #00ad6a;
     transform: translate3d(5px, -5px, 0);
   }
+  .footerbtn {
+    transition: all 0.3s ease-in-out;
+  }
+  .footerbtn:hover {
+    box-shadow: 5px -5px #00ad6a;
+    transform: translate3d(5px, -5px, 0);
+  }
 }

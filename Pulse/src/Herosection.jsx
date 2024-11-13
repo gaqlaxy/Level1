@@ -3,7 +3,7 @@ import React from "react";
 export default function Herosection() {
   return (
     <>
-      <div className="hero container flex flex-col items-center mt-10 text-center">
+      <div className="hero container flex flex-col items-center mt-10 text-center max-w-[1150px] mx-auto">
         <div className="hero-heading text-[#080c16]  text-6xl font-bold">
           <h1>Try Pulse free for</h1>
           <h1> 30 days.</h1>

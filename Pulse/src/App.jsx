@@ -8,13 +8,15 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div className="max-w-[1150px] mx-auto ">
-      <Navbar />
-      <Herosection />
-      <Pricing />
-      <Testimonials />
-      <Faq />
-      <Footer />
+    <div>
+      <div>
+        <Navbar />
+        <Herosection />
+        <Pricing />
+        <Testimonials />
+        <Faq />
+        <Footer />
+      </div>
     </div>
   );
 }

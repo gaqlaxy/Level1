@@ -3,7 +3,7 @@ import React from "react";
 export default function Faq() {
   return (
     <>
-      <div className="mt-7 mb-14">
+      <div className="mt-7 mb-16 max-w-[1150px] mx-auto">
         <h1 className="text-3xl font-extrabold mb-6">FAQ</h1>
 
         <div className="grid grid-cols-2 gap-y-14 gap-x-5">
