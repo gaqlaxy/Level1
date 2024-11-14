@@ -3,8 +3,8 @@ import React from "react";
 export default function Pricing() {
   return (
     <>
-      <div className="pricing-section flex mt-20 gap-5 max-w-[1150px] mx-auto">
-        <div className="pricing-1 mt-20 p-8 ">
+      <div className="pricing-section flex mt-20 max-w-[1150px] mx-auto">
+        <div className="pricing-1 mt-20 py-8 px-4 w-2/1 ">
           <div className="heading mb-5 ">
             <p className="font-bold text-pulsegreen text-xl ">
               These are what we call the Pulse Basics. They’re what every
@@ -36,7 +36,7 @@ export default function Pricing() {
             </p>
           </div>
         </div>
-        <div className="pricing-2 bg-white border-2 border-solid rounded border-pulsegreen w-3/4 hover:cursor-pointer">
+        <div className="pricing-2 bg-white border-[1px] border-solid rounded border-pulsegreen w-3/4 hover:cursor-pointer inline-block">
           <p className="font-bold text-xl bg-pulsegreen text-white text-center">
             Recommended
           </p>
@@ -51,11 +51,11 @@ export default function Pricing() {
             </p>
             <a
               href=""
-              className="border-2 border-pulsegreen border-none bg-pulsegreen text-[#3e3e3f] font-bold text-xl p-3 pricing2btn"
+              className="border-2 border-pulsegreen border-none bg-pulsegreen text-[#3e3e3f] font-bold text-xl p-3 pricingbtn"
             >
               Sign Up Now
             </a>
-            <p className="uppercase text-[11px] text-[#3e3e3f] font-bold">
+            <p className="uppercase text-[11px] text-[#3e3e3f] font-bold tracking-wider">
               You get pulse basics, plus
             </p>
             <div className="content">
@@ -77,26 +77,41 @@ export default function Pricing() {
             </div>
           </div>
         </div>
-        <div className="pricing-3">
-          <div className="heading">
-            <h2>Unlock Extra Features</h2>
-          </div>
-          <p className="pricing-price">$89 per month</p>
-          <a href="">Try Premium</a>
-          <p className="uppercase text-sm">Get it all, plus</p>
-          <div className="content">
-            <ul className="list-disc">
-              <li>Manage cash flow across unlimited financial accounts</li>
-              <li>
-                convert to any currency for localized cash flow reporting and
-                projections
-              </li>
+        <div className="pricing-3 mt-20 bg-white h-full  rounded border-pulsegreen w-3/4 hover:cursor-pointer">
+          <div className="pb-8 px-8 flex flex-col justify-center items-center gap-5">
+            <div className="heading mt-5 text-center">
+              <h2 className="font-semibold text-pulsegreen text-4xl">
+                Unlock Extra Features
+              </h2>
+            </div>
+            <p className="mt-3 text-center text-xl tracking-wide text-[#080c16]">
+              $89 per month
+            </p>
+            <a
+              href=""
+              className="border-2 border-pulsegreen border-none bg-pulsegreen text-[#3e3e3f] font-bold text-xl p-3 pricingbtn"
+            >
+              Try Premium
+            </a>
+            <p className="uppercase text-[11px] text-[#3e3e3f] font-bold tracking-wider">
+              Get it all, plus
+            </p>
+            <div className="content">
+              <ul className="list-disc">
+                <li className="mb-4">
+                  Manage cash flow across unlimited financial accounts
+                </li>
+                <li className="mb-4">
+                  convert to any currency for localized cash flow reporting and
+                  projections
+                </li>
 
-              <li>
-                Attach invoices or contracts to your cash flow entries for
-                accountability and auditing
-              </li>
-            </ul>
+                <li>
+                  Attach invoices or contracts to your cash flow entries for
+                  accountability and auditing
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

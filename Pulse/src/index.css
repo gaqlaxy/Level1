@@ -21,4 +21,11 @@
     box-shadow: 5px -5px #00ad6a;
     transform: translate3d(5px, -5px, 0);
   }
+  .pricingbtn {
+    transition: all 0.5s;
+  }
+  .pricing-2:hover .pricingbtn,
+  .pricing-3:hover .pricingbtn {
+    transform: scale(1.2);
+  }
 }
