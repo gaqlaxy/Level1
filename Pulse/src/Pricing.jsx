@@ -13,19 +13,19 @@ export default function Pricing() {
           </div>
           <div className="content px-5">
             <ul className="list-disc">
-              <li>
+              <li className="mb-2">
                 Manage cash flow on a daily, weekly, monthly, or yearly basis
               </li>
-              <li>
+              <li className="mb-2">
                 Forecast growth with recurring income or expenses that scale
                 automatically
               </li>
-              <li>Works with any currency</li>
-              <li>
+              <li className="mb-2">Works with any currency</li>
+              <li className="mb-2">
                 See Money In and Money Out, categorize transactions, and run
                 helpful reports
               </li>
-              <li>
+              <li className="mb-2">
                 Toggle entries and accounts on and off to game out different
                 scenarios
               </li>

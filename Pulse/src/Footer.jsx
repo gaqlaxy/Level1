@@ -3,7 +3,7 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-[#080c16] relative">
+      <footer className="bg-[#080c16]">
         <div className="flex justify-around mx-10 mt-20 pt-20">
           <div className="p-5">
             <img src="/pulse-logo.svg" alt="" className="mb-16" />
